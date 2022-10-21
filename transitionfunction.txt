@@ -1,0 +1,64 @@
+//state q0
+q0:a=q1
+q0:b=q1
+q0:1=q6
+q0:0=q6
+
+//state q1
+q1:a=q2
+q1:b=q2
+q1:1=q2
+q1:0=q2
+
+//state q2
+q2:a=q3
+q2:b=q3
+q2:1=q3
+q2:0=q3
+
+//state q3
+q3:a=q4
+q3:b=q4
+q3:1=q4
+q3:0=q4
+
+//state q4
+q4:a=q5
+q4:b=q5
+q4:1=q5
+q4:0=q5
+
+//state q5
+q5:a=q5
+q5:b=q5
+q5:1=q5
+q5:0=q5
+
+//state q6
+q6:a=q2
+q6:b=q2
+q6:1=q7
+q6:0=q7
+
+//state q7
+q7:a=q3
+q7:b=q3
+q7:1=q8
+q7:0=q8
+
+//state q8
+q8:a=q4
+q8:b=q4
+q8:1=q5
+q8:0=q5
+
+//final states
+q0=Rejected
+q1=Rejected
+q2=Rejected
+q3=Accepted
+q4=Accepted
+q5=Rejected
+q6=Rejected
+q7=Rejected
+q8=Rejected
